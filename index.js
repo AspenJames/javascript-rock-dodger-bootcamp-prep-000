@@ -63,7 +63,7 @@ function createRock(x) {
   }
   window.requestAnimationFrame(moveRock)
   ROCKS.push(rock)
-  //return rock
+  return rock
 }
 
 function endGame() {
