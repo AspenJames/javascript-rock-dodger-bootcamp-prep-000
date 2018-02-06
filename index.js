@@ -56,6 +56,7 @@ function createRock(x) {
       endGame();
     } else {
       top = top + 2;
+      rock.style.top = `${top}px`
       if(top<380){
         window.requestAnimationFrame(moveRock);
       } else {
