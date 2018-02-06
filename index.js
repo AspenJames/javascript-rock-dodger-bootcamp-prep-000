@@ -77,7 +77,7 @@ function endGame() {
   }
 
   window.removeEventListener('keydown', moveDodger);
-  alert("YOU LOSE!");
+  alert('YOU LOSE! Press "Okay" to try again!');
   location.reload();
 }
 
